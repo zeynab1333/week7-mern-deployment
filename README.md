@@ -1,3 +1,9 @@
+# MERN Blog Application
+
+## 🚀 Deployed Application
+
+- **Frontend:** [https://week7-mern-deployment.vercel.app/](https://week7-mern-deployment.vercel.app/)
+- **Backend API:** [https://week7-mern-deployment.onrender.com/api](https://week7-mern-deployment.onrender.com/api)
 
 ---
 
@@ -9,8 +15,8 @@
 
 ### 1. Clone the repository
 ```bash
-git clone <your-repo-url>
-cd <your-project-folder>
+git clone <https://github.com/zeynab1333/week7-mern-deployment.git/>
+cd <week 4 mern assignment>
 ```
 
 ### 2. Set up the server
@@ -30,7 +36,7 @@ npm run dev
 
 ### 4. Open the app
 - Frontend: [http://localhost:5173](http://localhost:5173)
-- Backend API: [http://localhost:5000/api](http://localhost:5000/api)
+- Backend API: [http://localhost:5003/api](http://localhost:5003/api)
 
 ---
 
@@ -72,10 +78,38 @@ npm run dev
 
 ---
 
+## ⚙️ CI/CD Pipeline
+
+Below are screenshots of the CI/CD pipeline in action:
+
+### Build & Test
+![CI/CD Build](screenshots/cicd-build.png)
+
+### Deployment
+![CI/CD Deploy](screenshots/cicd-deploy.png)
+
+---
+
+## 📈 Monitoring Setup
+
+- **Tool Used:** Render built-in monitoring
+- **Metrics Monitored:** Deploy logs, health status, request/response logs
+- **Alerting:** No custom alerting configured (Render shows deploy failures and crashes in the dashboard)
+- **Dashboard:**  
+  ![Monitoring Dashboard](screenshots/monitoring-dashboard.png)
+
+**Setup Steps:**
+1. Install and configure the monitoring agent on your server.
+2. Connect your application to the monitoring tool.
+3. Set up dashboards and alerts for key metrics.
+4. Regularly review logs and metrics for anomalies.
+
+---
+
 ## 🙌 Author
 
 - Zeynab
-- [Your GitHub Profile](https://github.com/zeynab1333)
+- [My GitHub Profile](https://github.com/zeynab1333)
 
 ---
 
